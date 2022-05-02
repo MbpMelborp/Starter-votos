@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  color: #000;
+  background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.toggle__bg {
+  height: 50vw;
+  width: 50vw;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 200;
+  border-radius: 50%;
+
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+
+  background-image: linear-gradient(
+    137deg,
+    #a6a800 1%,
+    #cfd100 30%,
+    #dfdc00 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 23px 23px 38px 0 #abaeb8, -23px -23px 38px 0 #fcfcfc98;
+  transition: all 0.5s ease-in-out;
+}
+.toggle__bg::before {
+  content: "Activar";
+  letter-spacing: 0.3em;
+  font-weight: 200;
+  font-size: 0.8em;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+input:checked + .toggle__bg {
+  background-image: linear-gradient(
+    137deg,
+    #dbe0e4 0%,
+    #e7eaef 29%,
+    #e6eaef 100%
+  );
+  box-shadow: 4px 4px 15px 0 #abaeb8, -4px -4px 15px 0 #fcfcfc98;
+}
+input:checked + .toggle__bg::before {
+  content: "Desactivar";
+}

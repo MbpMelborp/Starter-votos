@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "ANDRÉS LOPERA",
+    "foto": "Andrés Lopera.png",
+    "fondo": ""
+  },
+  {
+    "id": 2,
+    "nombre": "SASHA SPITZ",
+    "foto": "Sasha Spitz.png",
+    "fondo": "Newtopia"
+  },
+  {
+    "id": 3,
+    "nombre": "LEONARDO BORRERO",
+    "foto": "Leonardo Borrero.png",
+    "fondo": ""
+  },
+  {
+    "id": 4,
+    "nombre": "DANIEL TORO",
+    "foto": "Daniel Toro.png",
+    "fondo": "LinkU Ventures"
+  },
+  {
+    "id": 5,
+    "nombre": "ESTEBAN URREA",
+    "foto": "Esteban Urrea.png",
+    "fondo": "Vertical Partners"
+  },
+  {
+    "id": 6,
+    "nombre": "CAMILO MARRUGO / BEATRIZ DAGER",
+    "foto": "Camilo Marrugo - Beatriz Dager.png",
+    "fondo": "ChiX"
+  },
+  {
+    "id": 7,
+    "nombre": "ARIEL RUSSO",
+    "foto": "Ariel Russo.png",
+    "fondo": "K50 Ventures"
+  },
+  {
+    "id": 8,
+    "nombre": "MIGUEL SOLÓRZANO",
+    "foto": "Miguel Solórzano.png",
+    "fondo": "Sapientia Capital"
+  },
+  {
+    "id": 9,
+    "nombre": "RON OLIVER",
+    "foto": "Ron Oliver.png",
+    "fondo": "Startup México"
+  },
+  {
+    "id": 10,
+    "nombre": "CAROLINA SARRIA",
+    "foto": "Carolina Sarria.png",
+    "fondo": "Sigma"
+  },
+  {
+    "id": 11,
+    "nombre": "SEMPLI",
+    "foto": "Sempli.png",
+    "fondo": ""
+  },
+  {
+    "id": 12,
+    "nombre": "FINAKTIVA",
+    "foto": "Finaktiva.png",
+    "fondo": ""
+  }
+]

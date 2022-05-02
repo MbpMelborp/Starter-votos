@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "nombre": "ANDRÉS LOPERA",
+    "foto": "1_andres_lopera.png",
+    "fondo": ""
+  },
+  {
+    "id": 2,
+    "nombre": "SACHA SPITZ",
+    "foto": "2_sacha_spitz.png",
+    "fondo": "Newtopia"
+  },
+  {
+    "id": 3,
+    "nombre": "PABLO FERNÁNDEZ",
+    "foto": "3_pablo_fernandez.png",
+    "fondo": "Kapita"
+  },
+  {
+    "id": 4,
+    "nombre": "DANIEL TORO",
+    "foto": "4_daniel_toro.png",
+    "fondo": "LinkU Ventures"
+  },
+  {
+    "id": 5,
+    "nombre": "ESTEBAN URREA",
+    "foto": "5_esteban_urrea.png",
+    "fondo": "Vertical Partners"
+  },
+  {
+    "id": 6,
+    "nombre": "ESTEBAN MARRUGO",
+    "foto": "6_esteban_marrugo.png",
+    "fondo": "ChiX"
+  },
+  {
+    "id": 7,
+    "nombre": "BEATRIZ DAGER",
+    "foto": "7_beatriz_dager.png",
+    "fondo": "ChiX"
+  },
+  {
+    "id": 8,
+    "nombre": "ARIEL RUSSO",
+    "foto": "8_ariel_russo.png",
+    "fondo": "K50 Ventures"
+  },
+  {
+    "id": 9,
+    "nombre": "MIGUEL SOLÓRZANO",
+    "foto": "9_miguel_solorzano.png",
+    "fondo": "FONDO DE INVERSIÓN"
+  },
+
+  {
+    "id": 6,
+    "nombre": "DIEGO NORIEGA",
+    "foto": "6.png",
+    "fondo": "FONDO DE INVERSIÓN"
+  },
+
+  {
+    "id": 10,
+    "nombre": "MIGUEL PIEDRAHITA",
+    "foto": "10.png",
+    "fondo": "FONDO DE INVERSIÓN"
+  },
+  {
+    "id": 11,
+    "nombre": "SEMPLI",
+    "foto": "11.png",
+    "fondo": "FONDO DE INVERSIÓN"
+  },
+  {
+    "id": 12,
+    "nombre": "FINAKTIVA",
+    "foto": "12.png",
+    "fondo": "FONDO DE INVERSIÓN"
+  },
+  {
+    "id": 13,
+    "nombre": "BANCOLOMBIA",
+    "foto": "13.png",
+    "fondo": "FONDO DE INVERSIÓN"
+  }
+]

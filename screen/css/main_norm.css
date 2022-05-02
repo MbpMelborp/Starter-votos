@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "apoc";
+  src: url("../fonts/apoc.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  background: #e1e1e1;
+  width: 100vw;
+  min-height: 100vh;
+}
+.wrapper {
+  width: 100vw;
+  height: 40vw;
+  /* border: solid 1px red; */
+}
+.inversionistas-wrap {
+  display: none;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background: #e1e1e1;
+}
+.inversionistas-wrap-int {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+#inversionistas {
+  margin: 0 0.4%;
+  padding: 0;
+  flex: 1;
+}
+#inversionistas li {
+  list-style: none;
+}
+
+.inv {
+  text-align: center;
+  width: 8.2%;
+  margin: 0 0.1%;
+  display: none;
+  border-radius: 5%;
+  background: #e1e1e1;
+  padding: 0.5em 0.2em;
+  margin-top: 1em;
+}
+
+.inv h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.7vw;
+  letter-spacing: 0.2em;
+  position: absolute;
+  right: 0.9em;
+  top: 0.9em;
+  height: 2em;
+  width: 2em;
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0.4em;
+  text-align: center;
+  letter-spacing: -0.01em;
+  z-index: 1;
+}
+.inv .img-i {
+  padding: 0.2em;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 7.3vw;
+  height: 7.3vw;
+}
+.inv .img-i img {
+  width: 100%;
+}
+.inv h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.1vw;
+  letter-spacing: 0.1em;
+  margin-top: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0em;
+  transition: height 0.2s ease-in-out;
+}
+.inv h3.small {
+  font-size: 0.9vw;
+}
+.inv h5 {
+  font-weight: 400;
+  font-size: 0.8vw;
+  letter-spacing: 0.1em;
+  margin-top: 1em;
+  height: 0em;
+  transition: height 0.2s ease-in-out;
+}
+.inv h3.active {
+  height: 2.9em;
+}
+.inv h5.active {
+  height: 3em;
+}
+#inv-1 .img-i,
+#inv-2 .img-i,
+#inv-3 .img-i,
+#inv-4 .img-i,
+#inv-5 .img-i {
+  border: solid 4px #8ffbb4;
+  /* outline-offset: 0.3em;
+  outline: 1px solid #8ffbb4; */
+}
+#inv-6,
+#inv-7,
+#inv-8,
+#inv-9,
+#inv-10,
+#inv-11,
+#inv-12,
+#inv-13 {
+  opacity: 0.5;
+}
+.timer,
+.loop {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.timer {
+  display: none;
+}
+.timer video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.loop video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+::-webkit-media-controls {
+  display: none !important;
+}
+video::-webkit-media-controls {
+  display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+#timer {
+  width: 100%;
+  height: 20vw;
+  margin-top: auto;
+}

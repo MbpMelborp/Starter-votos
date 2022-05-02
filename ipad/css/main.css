@@ -1,0 +1,310 @@
+@font-face {
+  font-family: "apoc";
+  src: url("../fonts/apoc.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.full {
+  font-family: "apoc";
+  background: #e5e5e5;
+  font-size: 3em;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+}
+#pregun {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+}
+.card {
+  background: none;
+  border: none;
+}
+.card-body {
+  min-height: 95vh;
+  display: flex;
+  width: 100%;
+}
+.logoabc {
+  height: 30px;
+}
+.title {
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  margin-bottom: 2em;
+}
+.form_int {
+  align-self: flex-end;
+}
+.apoc {
+  font-family: "apoc", serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  color: #000;
+  /* overflow: hidden; */
+}
+#welcome {
+  letter-spacing: 0.1em;
+}
+#bola {
+  background: #e5e5e5;
+  min-height: 100vh;
+}
+
+@keyframes bola {
+  0% {
+    background-position: -20% -20%;
+    background-size: 40%;
+  }
+  25% {
+    background-position: 120% 50%;
+    background-size: 60%;
+  }
+  50% {
+    background-position: 80% 120%;
+    background-size: 50%;
+  }
+  75% {
+    background-position: 30% 90%;
+    background-size: 85%;
+  }
+  100% {
+    background-position: -20% -20%;
+    background-size: 40%;
+  }
+}
+/* INIT */
+.init-texto {
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  margin-bottom: 2em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+.logo_bot_startco {
+  text-align: right;
+}
+.logo_bot_marca {
+  text-align: left;
+}
+.logo_bot_marca img {
+  display: none;
+}
+@media screen and (max-height: 811px) {
+  .logo_top {
+    display: none;
+  }
+  .logo_top img {
+  }
+}
+.logo_bot {
+}
+@media screen and (max-height: 811px) {
+  .logo_bot img {
+  }
+  .logo_bot_marca {
+    margin-right: auto;
+  }
+  .logo_bot_marca img {
+    display: block;
+    width: 140px;
+  }
+  .logo_bot_startco {
+    margin-left: auto;
+  }
+  .logo_bot_startco img {
+    width: 120px;
+  }
+}
+
+#inversionistas {
+  margin: 0;
+  padding: 0;
+}
+#inversionistas li {
+  list-style: none;
+  opacity: 0.2;
+  transition: all 0.5s ease-in-out;
+}
+#inversionistas li.active {
+  list-style: none;
+  opacity: 1;
+}
+
+/* INIT */
+.init {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+#button {
+  height: 60vw;
+  width: 60vw;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 200;
+  border-radius: 50%;
+
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+
+  background-image: linear-gradient(
+    137deg,
+    #a6a800 1%,
+    #cfd100 30%,
+    #dfdc00 100%
+  );
+  box-shadow: 23px 23px 38px 0 #abaeb8, -23px -23px 38px 0 #fcfcfc98;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-height: 811px) {
+  #button {
+    height: 50vh;
+    width: 50vh;
+  }
+}
+@media screen and (max-height: 713px) {
+  #button {
+    height: 60vh;
+    width: 60vh;
+  }
+}
+#button:disabled,
+#button[disabled] {
+  background-image: linear-gradient(
+    137deg,
+    #dbe0e4 0%,
+    #e7eaef 29%,
+    #e6eaef 100%
+  );
+  box-shadow: 4px 4px 15px 0 #abaeb8, -4px -4px 15px 0 #fcfcfc98;
+}
+#inversionista-info h2 {
+  font-weight: 200;
+}
+.titlep {
+  font-size: 2vmax;
+}
+.inv {
+  width: 25%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 1em;
+}
+.inv img {
+}
+@media screen and (max-height: 811px) {
+  .inv {
+    width: 15%;
+  }
+  .inv img {
+    width: 90%;
+  }
+}
+.inv h3 {
+  font-size: 1.2vmax;
+  font-weight: 200;
+  margin: 0 1em 0.4em;
+  min-height: 3.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inv h4 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1vmax;
+  letter-spacing: 0em;
+  margin-top: 0em;
+  min-height: 2em;
+}
+#form {
+  background-image: url(../images/startco_bars.png);
+  background-position: center top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-height: 811px) {
+  #form {
+    background-position: center top;
+    background-size: 95% auto;
+    background-repeat: no-repeat;
+  }
+}
+.form-wrap {
+  flex-direction: column;
+}
+@media screen and (max-height: 811px) {
+  .form-wrap {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+}
+
+#inversionista-info h2 {
+  text-align: center;
+  font-size: 2.8vmax;
+}
+@media screen and (max-height: 811px) {
+  #inversionista-info {
+    width: 25%;
+  }
+  #inversionista-info h2 {
+    text-align: right;
+    width: 80%;
+    margin-bottom: 0;
+    font-size: 2.5vmax;
+  }
+}
+#turno {
+  font-size: 1.5vmax;
+  font-weight: 200;
+}
+.boton img {
+  display: none;
+}
+@media screen and (max-height: 811px) {
+  .boton {
+    width: 50%;
+    margin: 0 2vw;
+  }
+  .boton img {
+    display: block;
+    margin: 2em auto 0;
+    width: 120px;
+  }
+}
+.tap h2 {
+  text-align: center;
+  font-size: 2.4vmax;
+}
+@media screen and (max-height: 811px) {
+  .tap {
+    width: 25%;
+  }
+  .tap h2 {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 2.4vmax;
+  }
+}
+.logo-2 {
+}
+
+@media screen and (max-height: 811px) {
+  .logo-2 {
+    display: none;
+  }
+}
